@@ -11,8 +11,10 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 ```bash
 # Clone this repository
 git clone https://github.com/nodegui/react-nodegui-starter
-# Install CMake
-brew install cmake
+# Install CMake  
+//brew install cmake
+1.- Download from [here](https://cmake.org/download/) unzip and set the bin folder path as environment variable so that the cmake commmand works
+2.- Enable Visual Studio c++ tools. With the visual stidio installer, modifiy the installation and add the c++ development tools
 # Go into the repository
 cd react-nodegui-starter
 # Install dependencies
